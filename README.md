@@ -1,6 +1,10 @@
 # Hansard XML Publisher
 
 A small ASP.NET Core MVC web application that reads Hansard-style transcript data from an XML file and displays it as a searchable publishing page.
+<img width="3826" height="1889" alt="image" src="https://github.com/user-attachments/assets/56b5cad2-fd84-4df7-a969-8d0bc2c61a97" />
+<img width="3835" height="1914" alt="image" src="https://github.com/user-attachments/assets/ff711066-0c67-4662-bab4-438b42783404" />
+
+
 
 ## Project Overview
 
