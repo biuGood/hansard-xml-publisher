@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transcript>
+  <sittingDate>2026-06-11</sittingDate>
+  <title>Sample Hansard Transcript</title>
+
+  <proceedings>
+    <item>
+      <time>10:00 AM</time>
+      <speaker>Hon. Jane Smith</speaker>
+      <role>Minister of Finance</role>
+      <topic>Budget Update</topic>
+      <text>The government is presenting an update on the provincial budget and public service priorities.</text>
+    </item>
+
+    <item>
+      <time>10:15 AM</time>
+      <speaker>Alex Chen</speaker>
+      <role>Member of the Legislative Assembly</role>
+      <topic>Health Care</topic>
+      <text>I would like to ask about wait times, staffing levels, and access to health services in rural communities.</text>
+    </item>
+
+    <item>
+      <time>10:30 AM</time>
+      <speaker>Maria Johnson</speaker>
+      <role>Member of the Legislative Assembly</role>
+      <topic>Education</topic>
+      <text>Today I am raising questions about school funding, classroom resources, and support for students.</text>
+    </item>
+  </proceedings>
+</transcript>

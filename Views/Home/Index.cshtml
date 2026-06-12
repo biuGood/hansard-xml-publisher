@@ -1,0 +1,48 @@
+﻿@model HansardXmlPublisher.Models.TranscriptViewModel
+
+@{
+    ViewData["Title"] = "Hansard XML Publisher";
+}
+
+<div class="publisher-container">
+    <h1>Hansard XML Publisher</h1>
+
+    <p class="subtitle">
+        A sample publishing workflow that parses XML transcript content and displays it as a searchable web page.
+    </p>
+
+    <section class="summary-card">
+        <h2>@Model.SessionTitle</h2>
+        <p><strong>Sitting Date:</strong> @Model.SittingDate</p>
+        <p><strong>Total Entries:</strong> @Model.Entries.Count</p>
+    </section>
+
+    <div class="search-section">
+        <label for="searchInput">Search transcript:</label>
+        <input type="text" id="searchInput" placeholder="Search by speaker, role, or content..." />
+    </div>
+
+    <table class="transcript-table" id="transcriptTable">
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Speaker</th>
+                <th>Role</th>
+                <th>Content</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var entry in Model.Entries)
+            {
+                <tr>
+                    <td>@entry.Time</td>
+                    <td>@entry.Speaker</td>
+                    <td>@entry.Role</td>
+                    <td>@entry.Text</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<script src="~/js/transcript-search.js"></script>
